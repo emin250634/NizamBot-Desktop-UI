@@ -1,0 +1,9 @@
+@echo off
+title NizamBot GUI Başlatılıyor...
+echo 🔧 Build alınıyor...
+call npm run build
+
+echo 🚀 Electron başlatılıyor...
+call npm run start
+
+pause
